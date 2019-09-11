@@ -1,0 +1,18 @@
+[package]
+name = "pixelengine"
+version = "0.1.0"
+authors = ["tuomas56 <pigworts2@gmail.com>"]
+
+[dependencies]
+image = "0.21.0"
+glium = "0.22.0"
+
+[dependencies.rusttype]
+version = "0.7.4"
+features = ["gpu_cache"]
+
+[dev-dependencies]
+rand = "*"
+
+[profile.release]
+debug = true
